@@ -1,0 +1,39 @@
+package walczak.lukasz.ISA_Lab.character.dto;
+
+
+import lombok.*;
+
+import java.util.UUID;
+
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
+@ToString
+@EqualsAndHashCode
+public class GetCharacterResponse {
+
+
+    @Getter
+    @Setter
+    @Builder
+    @NoArgsConstructor
+    @AllArgsConstructor(access = AccessLevel.PRIVATE)
+    @ToString
+    @EqualsAndHashCode
+    public static class Profession {
+
+        private UUID id;
+        private String name;
+    }
+
+    private UUID id;
+
+    private String name;
+
+    private Profession profession;
+
+    private Integer level;
+
+}

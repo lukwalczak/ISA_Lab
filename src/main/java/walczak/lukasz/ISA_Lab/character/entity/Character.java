@@ -3,6 +3,9 @@ package walczak.lukasz.ISA_Lab.character.entity;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 
+import java.util.UUID;
+
+
 @Getter
 @Setter
 @SuperBuilder
@@ -12,7 +15,7 @@ import lombok.experimental.SuperBuilder;
 @EqualsAndHashCode()
 public class Character {
 
-    private Long id;
+    private UUID id;
 
     private String name;
 

@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AuiLabApplication {
+public class ISA_Lab {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AuiLabApplication.class, args);
+		SpringApplication.run(ISA_Lab.class, args);
 	}
 
 }

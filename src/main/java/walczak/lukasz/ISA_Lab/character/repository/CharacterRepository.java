@@ -2,18 +2,33 @@ package walczak.lukasz.ISA_Lab.character.repository;
 
 import org.springframework.stereotype.Repository;
 import java.util.Optional;
+import java.util.UUID;
+import walczak.lukasz.ISA_Lab.Datastore;
 
 @Repository
-public interface CharacterRepository<E,K> {
-        Optional<E> findByID(long K);
+public class CharacterRepository implements CrudRepository<Character, UUID> {
 
-        void save(E entity);
+        private final Datastore dataStore;
 
-        void delete(E entity);
+        public Optional<Character> findByID(UUID K){
 
-        void deleteByID(long K);
+        };
 
-        void update(E entity);
+        public void save(Character entity){
 
-        Iterable<E> findAll();
+        };
+
+        void delete(Character entity){};
+
+        void deleteByID(UUID K){
+
+        };
+
+        void update(Character entity){
+
+        };
+
+        Iterable<Character> findAll(){
+
+        };
 }
