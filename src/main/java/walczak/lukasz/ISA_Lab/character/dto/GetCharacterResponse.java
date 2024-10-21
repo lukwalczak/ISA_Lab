@@ -26,6 +26,7 @@ public class GetCharacterResponse {
 
         private UUID id;
         private String name;
+        private Integer baseArmor;
     }
 
     private UUID id;

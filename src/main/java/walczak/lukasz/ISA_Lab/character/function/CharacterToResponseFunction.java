@@ -2,7 +2,10 @@ package walczak.lukasz.ISA_Lab.character.function;
 
 
 import org.springframework.stereotype.Component;
+import walczak.lukasz.ISA_Lab.character.dto.GetCharacterResponse;
 import java.util.function.Function;
+import walczak.lukasz.ISA_Lab.character.entity.Character;
+import walczak.lukasz.ISA_Lab.character.entity.Profession;
 
 @Component
 public class CharacterToResponseFunction implements Function<Character, GetCharacterResponse> {
@@ -11,9 +14,8 @@ public class CharacterToResponseFunction implements Function<Character, GetChara
         return GetCharacterResponse.builder()
                 .id(character.getId())
                 .name(character.getName())
-                .age(character.getAge())
-                .weight(character.getWeight())
-                .height(character.getHeight())
+                .level(character.getLevel())
+                .profession(GetCharacterResponse.Profession.builder().id(character.getProfession().getId()).name(character.getProfession().getName()).baseArmor(character.getProfession().getBaseArmor()).build())
                 .build();
     }
 }
