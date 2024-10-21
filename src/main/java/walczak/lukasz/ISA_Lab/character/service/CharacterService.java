@@ -22,7 +22,7 @@ public class CharacterService {
     }
 
     public Optional<Character> find(UUID id) {
-        return characterRepository.findByID(id);
+        return characterRepository.findById(id);
     }
 
     public List<Character> findAll() {
@@ -42,7 +42,7 @@ public class CharacterService {
     }
 
     public void delete(UUID id) {
-        characterRepository.deleteByID(id);
+        characterRepository.deleteById(id);
     }
 
     public List<Character> getAllCharacters() {
