@@ -11,7 +11,7 @@ import java.util.UUID;
 @Setter
 @Builder
 @NoArgsConstructor
-@AllArgsConstructor(access = AccessLevel.PRIVATE)
+@AllArgsConstructor
 @ToString
 @EqualsAndHashCode
 @Entity
@@ -24,6 +24,5 @@ public class Profession implements Serializable {
     private String name;
 
     private int baseArmor;
-
 
 }

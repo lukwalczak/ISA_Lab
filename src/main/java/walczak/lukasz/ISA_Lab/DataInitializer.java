@@ -22,16 +22,21 @@ public class DataInitializer {
 
     @PostConstruct
     public void init() {
-        // Create professions
-        Profession warrior = Profession.builder().name("Warrior").baseArmor(20).build();
-        Profession mage = Profession.builder().name("Mage").baseArmor(10).build();
-        Profession archer = Profession.builder().name("Archer").baseArmor(15).build();
+
+        if(professionService.findAll().size() > 0) {
+            return;
+        }
+        Profession warrior = Profession.builder().id(UUID.randomUUID()).name("Warrior").baseArmor(20).build();
+        Profession mage = Profession.builder().id(UUID.randomUUID()).name("Mage").baseArmor(10).build();
+        Profession archer = Profession.builder().id(UUID.randomUUID()).name("Archer").baseArmor(15).build();
 
         professionService.create(warrior);
         professionService.create(mage);
         professionService.create(archer);
 
-        // Manually set the UUID when creating characters
+        if(characterService.findAll().size() > 0) {
+            return;
+        }
         Character aragorn = Character.builder().id(UUID.randomUUID()).name("Aragorn").level(20).profession(warrior).build();
         Character legolas = Character.builder().id(UUID.randomUUID()).name("Legolas").level(18).profession(archer).build();
         Character gandalf = Character.builder().id(UUID.randomUUID()).name("Gandalf").level(25).profession(mage).build();

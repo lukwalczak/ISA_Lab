@@ -25,7 +25,7 @@ public class Character {
 
     private int level;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "profession_id")
     private Profession profession;
 

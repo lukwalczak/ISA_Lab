@@ -1,12 +1,13 @@
-CREATE TABLE character (
-                           id VARCHAR(255) PRIMARY KEY,
-                           name VARCHAR(100),
-                           level INT,
-                           profession_id VARCHAR(255)
+CREATE TABLE professions (
+                             id UUID PRIMARY KEY,
+                             name VARCHAR(255) NOT NULL,
+                             baseArmor INT NOT NULL
 );
 
-CREATE TABLE profession (
-                            id VARCHAR(255) PRIMARY KEY,
-                            name VARCHAR(100),
-                            base_armor INT
+CREATE TABLE characters (
+                            id UUID PRIMARY KEY,
+                            name VARCHAR(255) NOT NULL,
+                            level INT NOT NULL,
+                            profession_id UUID,
+                            FOREIGN KEY (profession_id) REFERENCES professions(id)
 );

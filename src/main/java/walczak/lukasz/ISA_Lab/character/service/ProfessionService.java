@@ -19,14 +19,16 @@ public class ProfessionService {
     }
 
     public Optional<Profession> find(UUID id) {
-        return professionRepository.findById(id);
+        return professionRepository.findByID(id);
     }
 
     public void create(Profession profession){
         if(profession.getId() == null){
             profession.setId(UUID.randomUUID());
         }
-        professionRepository.save(profession);
+        if(!professionRepository.exists(profession.getName())){
+            professionRepository.save(profession);
+        }
     }
 
     public List<Profession> findAll(){
