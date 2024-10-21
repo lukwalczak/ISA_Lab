@@ -1,34 +1,60 @@
 package walczak.lukasz.ISA_Lab.character.repository;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
+import walczak.lukasz.ISA_Lab.character.entity.Character;
+
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
-import walczak.lukasz.ISA_Lab.Datastore;
 
 @Repository
 public class CharacterRepository implements CrudRepository<Character, UUID> {
 
-        private final Datastore dataStore;
+        private final JdbcTemplate jdbcTemplate;
 
-        public Optional<Character> findByID(UUID K){
+        @Autowired
+        public CharacterRepository(JdbcTemplate jdbcTemplate) {
+                this.jdbcTemplate = jdbcTemplate;
+        }
 
-        };
+        @Override
+        public Optional<Character> findByID(UUID id) {
+                String sql = "SELECT * FROM character WHERE id = ?";
+                List<Character> result = jdbcTemplate.query(sql, new BeanPropertyRowMapper<>(Character.class), id.toString());
 
-        public void save(Character entity){
+                return result.isEmpty() ? Optional.empty() : Optional.of(result.get(0));
+        }
 
-        };
+        @Override
+        public void save(Character character) {
+                String sql = "INSERT INTO character (id, name, level, profession_id) VALUES (?, ?, ?, ?)";
+                jdbcTemplate.update(sql, character.getId().toString(), character.getName(), character.getLevel(), character.getProfession().getId().toString());
+        }
 
-        void delete(Character entity){};
+        @Override
+        public void delete(Character character) {
+                String sql = "DELETE FROM character WHERE id = ?";
+                jdbcTemplate.update(sql, character.getId().toString());
+        }
 
-        void deleteByID(UUID K){
+        @Override
+        public void deleteByID(UUID id) {
+                String sql = "DELETE FROM character WHERE id = ?";
+                jdbcTemplate.update(sql, id.toString());
+        }
 
-        };
+        @Override
+        public void update(Character character) {
+                String sql = "UPDATE character SET name = ?, level = ?, profession_id = ? WHERE id = ?";
+                jdbcTemplate.update(sql, character.getName(), character.getLevel(), character.getProfession().getId().toString(), character.getId().toString());
+        }
 
-        void update(Character entity){
-
-        };
-
-        Iterable<Character> findAll(){
-
-        };
+        @Override
+        public List<Character> findAll() {
+                String sql = "SELECT * FROM character";
+                return jdbcTemplate.query(sql, new BeanPropertyRowMapper<>(Character.class));
+        }
 }

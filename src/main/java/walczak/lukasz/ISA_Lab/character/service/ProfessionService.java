@@ -6,6 +6,8 @@ import walczak.lukasz.ISA_Lab.character.entity.Profession;
 import walczak.lukasz.ISA_Lab.character.repository.ProfessionRepository;
 
 import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
 
 @Service
 public class ProfessionService {
@@ -16,12 +18,19 @@ public class ProfessionService {
         this.professionRepository = professionRepository;
     }
 
-    public List<Profession> getAllProfessions() {
-        return professionRepository.findAll();
+    public Optional<Profession> find(UUID id) {
+        return professionRepository.findById(id);
     }
 
-    public void addProfession(Profession profession) {
+    public void create(Profession profession){
+        if(profession.getId() == null){
+            profession.setId(UUID.randomUUID());
+        }
         professionRepository.save(profession);
+    }
+
+    public List<Profession> findAll(){
+        return professionRepository.findAll();
     }
 
 }

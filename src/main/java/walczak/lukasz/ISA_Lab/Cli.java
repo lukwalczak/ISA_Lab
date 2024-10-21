@@ -32,7 +32,7 @@ public class Cli implements CommandLineRunner {
 
             switch (command) {
                 case "list-professions":
-                    professionService.getAllProfessions().forEach(System.out::println);
+                    professionService.findAll().forEach(System.out::println);
                     break;
                 case "list-characters":
                     characterService.getAllCharacters().forEach(System.out::println);
@@ -44,17 +44,17 @@ public class Cli implements CommandLineRunner {
                     int level = Integer.parseInt(scanner.nextLine());
                     System.out.print("Enter profession name (e.g., Warrior): ");
                     String professionName = scanner.nextLine();
-                    Profession profession = professionService.getAllProfessions().stream()
+                    Profession profession = professionService.findAll().stream()
                             .filter(p -> p.getName().equalsIgnoreCase(professionName))
                             .findFirst()
                             .orElseThrow(() -> new IllegalArgumentException("Invalid profession!"));
-                    Character newCharacter = new Character(name, level, profession);
-                    characterService.addCharacter(newCharacter);
+                    Character newCharacter = Character.builder().id(UUID.randomUUID()).name(name).level(level).profession(profession).build();
+                    characterService.create(newCharacter);
                     break;
                 case "delete-character":
                     System.out.print("Enter character ID to delete: ");
                     UUID id = UUID.fromString(scanner.nextLine());
-                    characterService.deleteCharacter(id);
+                    characterService.delete(id);
                     break;
                 case "exit":
                     running = false;

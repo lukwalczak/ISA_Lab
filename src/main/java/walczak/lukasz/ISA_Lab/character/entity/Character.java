@@ -1,5 +1,6 @@
 package walczak.lukasz.ISA_Lab.character.entity;
 
+import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 
@@ -13,14 +14,19 @@ import java.util.UUID;
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @ToString(callSuper = true)
 @EqualsAndHashCode()
+@Entity
+@Table(name = "characters")
 public class Character {
 
+    @Id
     private UUID id;
 
     private String name;
 
     private int level;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "profession_id")
     private Profession profession;
 
 }

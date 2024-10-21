@@ -1,21 +1,43 @@
 package walczak.lukasz.ISA_Lab.character.repository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import walczak.lukasz.ISA_Lab.character.entity.Profession;
+
+import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
 @Repository
-public interface ProfessionRepository<E, K> {
+public class ProfessionRepository implements CrudRepository<Profession, UUID> {
 
-    Optional<E> findByID(long K);
+    public Optional<Profession> findByID(UUID K){
+        return Optional.empty();
+    };
 
-    void save(E entity);
+    public void save(Profession entity){
 
-    void delete(E entity);
+    };
 
-    void deleteByID(long K);
+    public void delete(Profession entity){};
 
-    void update(E entity);
+    public void deleteByID(UUID K){
 
-    Iterable<E> findAll();
+    };
+
+    public void update(Profession entity){
+
+    };
+
+    public List<Profession> findAll(){
+        return null;
+    };
+
+    public Optional<Profession> findById(UUID id) {
+        return Optional.empty();
+    }
+
+    public void deleteById(UUID id) {
+    }
 
 }
 

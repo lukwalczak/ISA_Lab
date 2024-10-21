@@ -7,6 +7,7 @@ import walczak.lukasz.ISA_Lab.character.service.CharacterService;
 import walczak.lukasz.ISA_Lab.character.service.ProfessionService;
 import jakarta.annotation.PostConstruct;
 
+import java.util.UUID;
 
 @Component
 public class DataInitializer {
@@ -22,26 +23,23 @@ public class DataInitializer {
     @PostConstruct
     public void init() {
         // Create professions
-        Profession warrior = new Profession("Warrior", 50);
-        Profession mage = new Profession("Mage", 10);
-        Profession archer = new Profession("Archer", 30);
+        Profession warrior = Profession.builder().name("Warrior").baseArmor(20).build();
+        Profession mage = Profession.builder().name("Mage").baseArmor(10).build();
+        Profession archer = Profession.builder().name("Archer").baseArmor(15).build();
 
-        professionService.getAllProfessions().forEach(System.out::println);
+        professionService.create(warrior);
+        professionService.create(mage);
+        professionService.create(archer);
 
-        professionService.addProfession(warrior);
-        professionService.addProfession(mage);
-        professionService.addProfession(archer);
+        // Manually set the UUID when creating characters
+        Character aragorn = Character.builder().id(UUID.randomUUID()).name("Aragorn").level(20).profession(warrior).build();
+        Character legolas = Character.builder().id(UUID.randomUUID()).name("Legolas").level(18).profession(archer).build();
+        Character gandalf = Character.builder().id(UUID.randomUUID()).name("Gandalf").level(25).profession(mage).build();
+        Character frodo = Character.builder().id(UUID.randomUUID()).name("Frodo").level(10).profession(warrior).build();
 
-        Character aragorn = new Character("Aragorn", 20, warrior);
-        Character legolas = new Character( "Legolas", 18, archer);
-        Character gandalf = new Character( "Gandalf", 25, mage);
-        Character frodo = new Character( "Frodo", 10, warrior);
-
-
-        characterService.addCharacter(aragorn);
-        characterService.addCharacter(legolas);
-        characterService.addCharacter(gandalf);
-        characterService.addCharacter(frodo);
+        characterService.create(aragorn);
+        characterService.create(legolas);
+        characterService.create(gandalf);
+        characterService.create(frodo);
     }
 }
-
