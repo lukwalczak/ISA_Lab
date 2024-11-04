@@ -13,4 +13,5 @@ import java.util.UUID;
 
 @Repository
 public interface ProfessionRepository extends JpaRepository<Profession, UUID> {
+    void deleteById(UUID id);
 }

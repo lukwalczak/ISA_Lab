@@ -33,7 +33,7 @@ public class ProfessionService {
         return professionRepository.findAll();
     }
 
-    public void delete(UUID id){
+    public void deleteById(UUID id){
         professionRepository.deleteById(id);
     }
 }

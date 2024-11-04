@@ -1,0 +1,30 @@
+### Get all professions
+GET http://localhost:8080/api/professions
+Accept: application/json
+
+### Get a profession by ID
+GET http://localhost:8080/api/professions/{{professionId}}
+Accept: application/json
+
+### Get all characters
+GET http://localhost:8080/api/characters
+Accept: application/json
+
+### Get a user by ID
+# Replace {{userId}} with an actual user ID from your database or a previous request.
+GET http://localhost:8080/api/characters/{{userId}}
+Accept: application/json
+
+### Create a new user
+PUT http://localhost:8080/api/characters/{{newUserId}}
+Content-Type: application/json
+
+{
+    "name": "asd",
+    "level": 12,
+    "professionId": "3eb94723-4b17-4d81-b196-eac6063f4b73"
+}
+
+### Delete a user
+# Replace {{userIdToDelete}} with the ID of the user you want to delete.
+DELETE http://localhost:8080/api/characters/{{newUserId}}

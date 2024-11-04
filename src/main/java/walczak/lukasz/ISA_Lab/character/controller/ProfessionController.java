@@ -86,8 +86,9 @@ public class ProfessionController {
     public void deleteProfession(@PathVariable UUID id) {
         service.find(id)
                 .ifPresentOrElse(
-                        profession -> service.delete(id),
+                        profession -> service.deleteById(id),
                         () -> {
+                            log.warning("Profession not found");
                             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Profession not found");
                         }
                 );
