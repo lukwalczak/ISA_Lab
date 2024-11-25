@@ -26,7 +26,7 @@ public class Character {
     private int level;
 
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "profession_id")
+    @JoinColumn(name = "professions")
     private Profession profession;
 
 }

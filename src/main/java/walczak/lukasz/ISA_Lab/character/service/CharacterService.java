@@ -5,6 +5,8 @@ import org.springframework.stereotype.Service;
 import walczak.lukasz.ISA_Lab.character.entity.Profession;
 import walczak.lukasz.ISA_Lab.character.repository.CharacterRepository;
 import walczak.lukasz.ISA_Lab.character.entity.Character;
+import walczak.lukasz.ISA_Lab.character.repository.ProfessionRepository;
+
 import java.util.Optional;
 
 
@@ -22,7 +24,7 @@ public class CharacterService {
     }
 
     public Optional<Character> find(UUID id) {
-        return characterRepository.findByID(id);
+        return characterRepository.findById(id);
     }
 
     public List<Character> findAll() {
@@ -42,11 +44,20 @@ public class CharacterService {
     }
 
     public void delete(UUID id) {
-        characterRepository.deleteByID(id);
+        characterRepository.deleteById(id);
     }
 
     public List<Character> getAllCharacters() {
         return characterRepository.findAll();
+    }
+
+    public List<Character> getCharacterByName(String name) {
+        return characterRepository.findByName(name);
+    }
+
+    public void deleteByName(String name){
+        UUID id = characterRepository.findByName(name).get(0).getId();
+        delete(id);
     }
 
 }
