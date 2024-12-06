@@ -1,5 +1,7 @@
 package org.example.simplerpgcharacter.profession.event.repository.api;
 
+import org.example.simplerpgcharacter.profession.entity.Profession;
+
 import java.util.UUID;
 
 public interface ProfessionEventRepository {
@@ -9,5 +11,5 @@ public interface ProfessionEventRepository {
      *
      * @param id profession's id
      */
-    void getProfessionById(UUID id);
+    Profession getProfessionById(UUID id);
 }

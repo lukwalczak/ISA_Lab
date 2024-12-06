@@ -22,11 +22,28 @@ public class GetCharactersResponse {
     @AllArgsConstructor(access = AccessLevel.PRIVATE)
     @ToString
     @EqualsAndHashCode
+    public static class Profession {
+
+        private UUID id;
+
+        private String name;
+
+        private int baseArmor;
+    }
+
+    @Getter
+    @Setter
+    @Builder
+    @NoArgsConstructor
+    @AllArgsConstructor(access = AccessLevel.PRIVATE)
+    @ToString
+    @EqualsAndHashCode
     public static class Character {
 
         private UUID id;
         private String name;
         private int level;
+        private Profession profession;
     }
 
     @Singular

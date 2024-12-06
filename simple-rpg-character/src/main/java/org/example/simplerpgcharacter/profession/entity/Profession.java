@@ -32,6 +32,10 @@ public class Profession implements Serializable {
     @Id
     private UUID id;
 
+    private String name;
+
+    private int baseArmor;
+
     @OneToMany(mappedBy = "profession", cascade = CascadeType.REMOVE)
     @ToString.Exclude
     @EqualsAndHashCode.Exclude

@@ -5,15 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9218e5e-ef9a-477c-8b87-0ac88136baf1" name="Changes" comment="LAB 4gateway">
-      <change beforePath="$PROJECT_DIR$/simple-rpg-character/simple-rpg-gateway/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpg-character/simple-rpg-gateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpg-character/simple-rpg-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpg-character/simple-rpg-gateway/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpg-character/simple-rpg-gateway/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpg-character/simple-rpg-gateway/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpg-character/simple-rpg-gateway/src/main/java/org/example/simplerpggateway/SimpleRpgGatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpg-character/simple-rpg-gateway/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpg-character/simple-rpg-gateway/src/test/java/org/example/simplerpggateway/SimpleRpgGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212618.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212619.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212656.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212657.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212659.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212709.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212711.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213130.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213132.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213134.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213139.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213203.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213205.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213207.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213209.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213211.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213213.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213220.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213224.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213225.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213227.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222017.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222020.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222027.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222028.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222032.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222041.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222052.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222055.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222100.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222102.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222104.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/dto/GetCharactersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/dto/GetCharactersResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/function/CharacterToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/function/CharacterToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/function/CharactersToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/function/CharactersToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/initialize/InitializeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/initialize/InitializeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/service/impl/CharacterDefaultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/service/impl/CharacterDefaultService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/entity/Profession.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/entity/Profession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/event/repository/api/ProfessionEventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/event/repository/api/ProfessionEventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/event/repository/impl/ProfessionEventRestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/event/repository/impl/ProfessionEventRestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-profession/src/main/java/org/example/simplerpgprofession/profession/initialize/InitializeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-profession/src/main/java/org/example/simplerpgprofession/profession/initialize/InitializeData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,9 +155,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SimpleRpgCharacterApplication">
-    <configuration name="requests | Create new character" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Create new character" index="6" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="requests | Get profession characters" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Get profession characters" index="4" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -134,6 +165,9 @@
       <method v="2" />
     </configuration>
     <configuration name="requests | Get single character, not existing" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Get single character, not existing" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="SimpleRpgCharacterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -159,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.requests | Get single character, not existing" />
-        <item itemvalue="HTTP Request.requests | Create new character" />
-        <item itemvalue="HTTP Request.requests | Get profession characters, not existing" />
         <item itemvalue="HTTP Request.requests | Get profession characters" />
+        <item itemvalue="HTTP Request.requests | Get profession characters, not existing" />
         <item itemvalue="HTTP Request.requests | Get single character" />
+        <item itemvalue="HTTP Request.requests | #1" />
+        <item itemvalue="HTTP Request.requests | Get single character, not existing" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +219,7 @@
       <updated>1733437462177</updated>
       <workItem from="1733437463389" duration="890000" />
       <workItem from="1733442393199" duration="5391000" />
-      <workItem from="1733495753762" duration="14284000" />
+      <workItem from="1733495753762" duration="16727000" />
     </task>
     <task id="LOCAL-00001" summary="LAB 4 works">
       <option name="closed" value="true" />
@@ -203,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733521529816</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="LAB 4gateway">
+      <option name="closed" value="true" />
+      <created>1733521615456</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733521615456</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

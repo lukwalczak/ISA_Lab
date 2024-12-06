@@ -22,6 +22,8 @@ public class CharacterToResponseFunction implements Function<Character, GetChara
                 .level(entity.getLevel())
                 .profession(GetCharacterResponse.Profession.builder()
                         .id(entity.getProfession().getId())
+                        .name(entity.getProfession().getName())
+                        .baseArmor(entity.getProfession().getBaseArmor())
                         .build())
                 .build();
     }

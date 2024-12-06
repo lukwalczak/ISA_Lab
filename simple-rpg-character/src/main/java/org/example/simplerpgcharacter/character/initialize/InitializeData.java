@@ -53,7 +53,7 @@ public class InitializeData implements InitializingBean {
                     .build();
 
             Profession rogue = Profession.builder()
-                    .id(UUID.randomUUID())
+                    .id(UUID.fromString("8ecfa2de-4fb3-40ae-b739-59b056d56ae6"))
                     .build();
 
             professionService.create(bard);
