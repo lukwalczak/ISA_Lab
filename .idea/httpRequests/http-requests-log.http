@@ -1,3 +1,48 @@
+GET http://localhost:8084/api/professions/ac4e2683-b2ba-4695-94d9-806a97fce71e/characters
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T224638.404.json
+
+###
+
+GET http://localhost:8084/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76/characters
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T224636.200.json
+
+###
+
+GET http://localhost:8084/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T224633.404.json
+
+###
+
+GET http://localhost:8084/api/characters/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T224630.200.json
+
+###
+
+GET http://localhost:8084/api/characters
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T224629.200.json
+
+###
+
 GET http://localhost:8084/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -421,53 +466,6 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 <> 2024-12-06T212618.200.json
-
-###
-
-DELETE http://localhost:8082/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-12-06T212532.500.json
-
-###
-
-GET http://localhost:8082/api/professions/ac4e2683-b2ba-4695-94d9-806a97fce71e
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T212530.404.json
-
-###
-
-GET http://localhost:8082/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T212527.200.json
-
-###
-
-GET http://localhost:8082/api/professions
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T212522.200.json
-
-###
-
-DELETE http://localhost:8081/api/users/81e1c2a9-7f57-439b-b53d-6db88b071e4e
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-12-06T212432.404.json
 
 ###
 
