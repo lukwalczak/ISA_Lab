@@ -1,3 +1,213 @@
+GET http://localhost:8084/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T224453.200.json
+
+###
+
+PUT http://localhost:8084/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 95
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Sigrid",
+  "level": 13,
+  "professionId": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+###
+
+GET http://localhost:8084/api/professions/ac4e2683-b2ba-4695-94d9-806a97fce71e/characters
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T224448.404.json
+
+###
+
+GET http://localhost:8084/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76/characters
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T224447.200.json
+
+###
+
+GET http://localhost:8084/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T224445.404.json
+
+###
+
+GET http://localhost:8084/api/characters/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T224443.200.json
+
+###
+
+GET http://localhost:8084/api/characters
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T224441.200.json
+
+###
+
+GET http://localhost:8084/api/professions
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222111.200.json
+
+###
+
+DELETE http://localhost:8084/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8084/api/professions
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222104.200.json
+
+###
+
+GET http://localhost:8084/api/professions/ac4e2683-b2ba-4695-94d9-806a97fce71e
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222102.404.json
+
+###
+
+GET http://localhost:8084/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222100.200.json
+
+###
+
+GET http://localhost:8084/api/professions
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222055.200.json
+
+###
+
+GET http://localhost:8084/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222052.404.json
+
+###
+
+DELETE http://localhost:8084/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8084/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222041.200.json
+
+###
+
+PUT http://localhost:8084/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+Content-Length: 95
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Sigrid",
+  "level": 13,
+  "professionId": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+###
+
+GET http://localhost:8084/api/professions/ac4e2683-b2ba-4695-94d9-806a97fce71e/characters
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222032.404.json
+
+###
+
+GET http://localhost:8084/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76/characters
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222028.200.json
+
+###
+
+GET http://localhost:8084/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222027.404.json
+
+###
+
+GET http://localhost:8084/api/characters/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222020.200.json
+
+###
+
+GET http://localhost:8084/api/characters
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2024-12-06T222017.200.json
+
+###
+
 GET http://localhost:8081/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76/characters
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -258,244 +468,6 @@ Accept: */*
 content-length: 0
 
 <> 2024-12-06T212432.404.json
-
-###
-
-DELETE http://localhost:8081/api/users/81e1c2a9-7f57-439b-b53d-6db88b071e4e
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-12-06T212426.404.json
-
-###
-
-GET http://localhost:8081/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76/characters
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T212422.404.json
-
-###
-
-DELETE http://localhost:8081/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-DELETE http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-PUT http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-Content-Type: application/json
-Authorization: Basic a2V2aW46dXNlcnVzZXI=
-Content-Length: 95
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Sigrid",
-  "level": 12,
-  "professionId": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
-}
-
-###
-
-GET http://localhost:8081/api/professions/ac4e2683-b2ba-4695-94d9-806a97fce71e/characters
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T212336.404.json
-
-###
-
-GET http://localhost:8081/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76/characters
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T212329.200.json
-
-###
-
-GET http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T212326.404.json
-
-###
-
-GET http://localhost:8081/api/characters/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T212323.200.json
-
-###
-
-GET http://localhost:8081/api/characters
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T212320.200.json
-
-###
-
-GET http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T212154.200.json
-
-###
-
-PUT http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-Content-Type: application/json
-Authorization: Basic a2V2aW46dXNlcnVzZXI=
-Content-Length: 95
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Sigrid",
-  "level": 12,
-  "professionId": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
-}
-
-###
-
-PUT http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-Content-Type: application/json
-Authorization: Basic a2V2aW46dXNlcnVzZXI=
-Content-Length: 95
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Sigrid",
-  "level": 12,
-  "professionId": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
-}
-
-###
-
-GET http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T212040.404.json
-
-###
-
-DELETE http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-GET http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T211940.200.json
-
-###
-
-GET http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T211937.200.json
-
-###
-
-GET http://localhost:8081/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76/characters
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T211924.200.json
-
-###
-
-PUT http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-Content-Type: application/json
-Authorization: Basic a2V2aW46dXNlcnVzZXI=
-Content-Length: 95
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Sigrid",
-  "level": 12,
-  "professionId": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
-}
-
-###
-
-GET http://localhost:8081/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76/characters
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2024-12-06T211855.200.json
-
-###
-
-PUT http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-Content-Type: application/json
-Authorization: Basic a2V2aW46dXNlcnVzZXI=
-Content-Length: 95
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Sigrid",
-  "level": 12,
-  "professionId": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
-}
-
-###
-
-PUT http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
-Content-Type: application/json
-Authorization: Basic a2V2aW46dXNlcnVzZXI=
-Content-Length: 95
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Sigrid",
-  "level": 12,
-  "professionId": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
-}
 
 ###
 

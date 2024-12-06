@@ -2,6 +2,7 @@ package org.example.simplerpgcharacter.character.service.impl;
 
 import org.example.simplerpgcharacter.character.repository.api.CharacterRepository;
 import org.example.simplerpgcharacter.character.service.api.CharacterService;
+import org.example.simplerpgcharacter.profession.event.repository.api.ProfessionEventRepository;
 import org.example.simplerpgcharacter.profession.repository.api.ProfessionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,6 +25,7 @@ public class CharacterDefaultService implements CharacterService {
      */
     private final ProfessionRepository professionRepository;
 
+    private final ProfessionEventRepository eventRepository;
 
     /**
      * @param repository           repository for character entity
@@ -32,10 +34,12 @@ public class CharacterDefaultService implements CharacterService {
     @Autowired
     public CharacterDefaultService(
             CharacterRepository repository,
-            ProfessionRepository professionRepository
+            ProfessionRepository professionRepository,
+            ProfessionEventRepository eventRepository
     ) {
         this.repository = repository;
         this.professionRepository = professionRepository;
+        this.eventRepository = eventRepository;
     }
 
     @Override

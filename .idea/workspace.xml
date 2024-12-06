@@ -4,36 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9218e5e-ef9a-477c-8b87-0ac88136baf1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/Cli.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/DataInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/ISA_Lab.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/controller/CharacterController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/controller/ProfessionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/GetCharacterResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/GetCharactersResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/GetProfessionResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/GetProfessionsResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/PatchCharacterRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/PutCharacterRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/entity/Character.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/entity/Profession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/CharacterToResponseFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/CharactersToResponseFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/ProfessionToResponseFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/ProfessionsToResponseFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/RequestToCharacterFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/UpdateCharacterWithRequestFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/repository/CharacterRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/repository/CrudRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/repository/ProfessionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/service/CharacterService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/service/ProfessionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/http-client.env.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/request.http" beforeDir="false" />
+    <list default="true" id="d9218e5e-ef9a-477c-8b87-0ac88136baf1" name="Changes" comment="LAB 4 works">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T211855.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T211924.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T211937.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T211940.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212040.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212154.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212320.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212323.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212326.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/SimpleRpgCharacterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/SimpleRpgCharacterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/service/impl/CharacterDefaultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/service/impl/CharacterDefaultService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Request" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -89,9 +77,13 @@
     "HTTP Request.requests | Delete character..executor": "Run",
     "HTTP Request.requests | Delete profession.executor": "Run",
     "HTTP Request.requests | Delete user.executor": "Run",
+    "HTTP Request.requests | Get all characters.executor": "Run",
     "HTTP Request.requests | Get all professions.executor": "Run",
+    "HTTP Request.requests | Get profession characters (1).executor": "Run",
     "HTTP Request.requests | Get profession characters, not existing.executor": "Run",
     "HTTP Request.requests | Get profession characters.executor": "Run",
+    "HTTP Request.requests | Get single character (1).executor": "Run",
+    "HTTP Request.requests | Get single character, not existing (1).executor": "Run",
     "HTTP Request.requests | Get single character, not existing.executor": "Run",
     "HTTP Request.requests | Get single character.executor": "Run",
     "HTTP Request.requests | Get single profession, not existing.executor": "Run",
@@ -104,6 +96,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.ISA_Lab.executor": "Run",
     "Spring Boot.SimpleRpgCharacterApplication.executor": "Debug",
+    "Spring Boot.SimpleRpgGatewayApplication.executor": "Debug",
     "Spring Boot.SimpleRpgProfessionApplication.executor": "Debug",
     "Spring Boot.SimpleRpgUserApplication.executor": "Run",
     "git-widget-placeholder": "jprdl",
@@ -117,29 +110,50 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.SimpleRpgCharacterApplication">
-    <configuration name="requests | Create new character" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="Create new character" index="6" runType="Run single request">
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SimpleRpgProfessionApplication">
+    <configuration name="requests | Delete profession" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Delete profession" index="11" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="requests | Get profession characters" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="Get profession characters" index="4" runType="Run single request">
+    <configuration name="requests | Get all professions" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Get all professions" index="8" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="requests | Get profession characters, not existing" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="Get profession characters, not existing" index="5" runType="Run single request">
+    <configuration name="requests | Get single character, not existing (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Get single character, not existing" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="requests | Get single character" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="Get single character" index="2" runType="Run single request">
+    <configuration name="requests | Get single profession" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Get single profession" index="9" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="requests | Get single character, not existing" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="Get single character, not existing" index="3" runType="Run single request">
+    <configuration name="requests | Get single profession, not existing" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Get single profession, not existing" index="10" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="SimpleRpgCharacterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="simple-rpg-character" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.simplerpgcharacter.SimpleRpgCharacterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleRpgGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.simplerpggateway.SimpleRpgGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.requests | Get profession characters" />
-        <item itemvalue="HTTP Request.requests | Get single character, not existing" />
-        <item itemvalue="HTTP Request.requests | Get single character" />
-        <item itemvalue="HTTP Request.requests | Create new character" />
-        <item itemvalue="HTTP Request.requests | Get profession characters, not existing" />
+        <item itemvalue="HTTP Request.requests | Get all professions" />
+        <item itemvalue="HTTP Request.requests | Delete profession" />
+        <item itemvalue="HTTP Request.requests | Get single profession, not existing" />
+        <item itemvalue="HTTP Request.requests | Get single profession" />
+        <item itemvalue="HTTP Request.requests | Get single character, not existing (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -179,8 +193,17 @@
       <updated>1733437462177</updated>
       <workItem from="1733437463389" duration="890000" />
       <workItem from="1733442393199" duration="5391000" />
-      <workItem from="1733495753762" duration="10235000" />
+      <workItem from="1733495753762" duration="14178000" />
     </task>
+    <task id="LOCAL-00001" summary="LAB 4 works">
+      <option name="closed" value="true" />
+      <created>1733517276663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733517276663</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +219,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LAB 4 works" />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB 4 works" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -16,6 +16,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar" />
         </processorPath>
         <module name="simple-rpg-profession" />
+        <module name="simple-rpg-gateway" />
         <module name="simple-rpg-character" />
       </profile>
     </annotationProcessing>
@@ -28,6 +29,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ISA_Lab" options="" />
       <module name="simple-rpg-character" options="-parameters" />
+      <module name="simple-rpg-gateway" options="-parameters" />
       <module name="simple-rpg-profession" options="-parameters" />
       <module name="simple-rpg-user" options="-parameters" />
     </option>
