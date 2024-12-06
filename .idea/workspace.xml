@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9218e5e-ef9a-477c-8b87-0ac88136baf1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/Cli.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/DataInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/ISA_Lab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/controller/CharacterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/controller/ProfessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/GetCharacterResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/GetCharactersResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/GetProfessionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/GetProfessionsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/PatchCharacterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/dto/PutCharacterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/entity/Character.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/entity/Profession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/CharacterToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/CharactersToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/ProfessionToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/ProfessionsToResponseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/RequestToCharacterFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/function/UpdateCharacterWithRequestFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/repository/CharacterRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/repository/CrudRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/repository/ProfessionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/service/CharacterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/walczak/lukasz/ISA_Lab/character/service/ProfessionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/http-client.env.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/request.http" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lukwalczak&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lukwalczak/ISA_Lab.git&quot;,
+    &quot;accountId&quot;: &quot;041f0246-f404-45fa-9827-ca666690af1f&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2pofgcL8H9SVro1VsNFrF5xhIJk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.requests | #1.executor": "Run",
+    "HTTP Request.requests | Create new character.executor": "Run",
+    "HTTP Request.requests | Delete character..executor": "Run",
+    "HTTP Request.requests | Delete profession.executor": "Run",
+    "HTTP Request.requests | Delete user.executor": "Run",
+    "HTTP Request.requests | Get all professions.executor": "Run",
+    "HTTP Request.requests | Get profession characters, not existing.executor": "Run",
+    "HTTP Request.requests | Get profession characters.executor": "Run",
+    "HTTP Request.requests | Get single character, not existing.executor": "Run",
+    "HTTP Request.requests | Get single character.executor": "Run",
+    "HTTP Request.requests | Get single profession, not existing.executor": "Run",
+    "HTTP Request.requests | Get single profession.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ISA_Lab.executor": "Run",
+    "Spring Boot.SimpleRpgCharacterApplication.executor": "Debug",
+    "Spring Boot.SimpleRpgProfessionApplication.executor": "Debug",
+    "Spring Boot.SimpleRpgUserApplication.executor": "Run",
+    "git-widget-placeholder": "jprdl",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.SimpleRpgCharacterApplication">
+    <configuration name="requests | Create new character" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="Create new character" index="6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | Get profession characters" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="Get profession characters" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | Get profession characters, not existing" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="Get profession characters, not existing" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | Get single character" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="Get single character" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | Get single character, not existing" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="Get single character, not existing" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleRpgCharacterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg-character" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.simplerpgcharacter.SimpleRpgCharacterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleRpgProfessionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg-profession" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.simplerpgprofession.SimpleRpgProfessionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.requests | Get profession characters" />
+        <item itemvalue="HTTP Request.requests | Get single character, not existing" />
+        <item itemvalue="HTTP Request.requests | Get single character" />
+        <item itemvalue="HTTP Request.requests | Create new character" />
+        <item itemvalue="HTTP Request.requests | Get profession characters, not existing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9218e5e-ef9a-477c-8b87-0ac88136baf1" name="Changes" comment="" />
+      <created>1733437462177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733437462177</updated>
+      <workItem from="1733437463389" duration="890000" />
+      <workItem from="1733442393199" duration="5391000" />
+      <workItem from="1733495753762" duration="10235000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

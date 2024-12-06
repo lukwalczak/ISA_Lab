@@ -1,0 +1,41 @@
+## Get all characters
+
+GET http://localhost:8081/api/characters
+
+### Get single character
+
+GET http://localhost:8081/api/characters/525d3e7b-bb1f-4c13-bf17-926d1a12e4c0
+
+### Get single character, not existing
+
+GET http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+
+### Get profession characters
+
+GET http://localhost:8081/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76/characters
+
+### Get profession characters, not existing
+
+GET http://localhost:8081/api/professions/ac4e2683-b2ba-4695-94d9-806a97fce71e/characters
+
+### Create new character
+
+PUT http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+
+{
+  "name": "Sigrid",
+  "level": 12,
+  "professionId": "f5875513-bf7b-4ae1-b8a5-5b70a1b90e76"
+}
+
+### Delete character.
+
+DELETE http://localhost:8081/api/characters/3c6f1eb1-8069-44ab-988f-d7fed2b65d87
+
+### Delete profession
+
+DELETE http://localhost:8081/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+
+
