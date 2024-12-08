@@ -1,6 +1,7 @@
 package org.example.simplerpgcharacter.character.dto;
 
 import lombok.*;
+import java.util.UUID;
 
 @Getter
 @Setter
@@ -14,5 +15,7 @@ public class PatchCharacterRequest {
     private String name;
 
     private Integer level;
+
+    private UUID professionId;
 
 }
