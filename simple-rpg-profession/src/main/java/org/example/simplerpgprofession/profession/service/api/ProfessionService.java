@@ -37,4 +37,7 @@ public interface ProfessionService {
      */
     void delete(UUID id);
 
+    void update(Profession profession);
+
+
 }

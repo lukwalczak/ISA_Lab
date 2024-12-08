@@ -4,7 +4,11 @@ import lombok.extern.java.Log;
 import org.example.simplerpgprofession.profession.controller.api.ProfessionController;
 import org.example.simplerpgprofession.profession.dto.GetProfessionResponse;
 import org.example.simplerpgprofession.profession.dto.GetProfessionsResponse;
+import org.example.simplerpgprofession.profession.dto.PostProfessionRequest;
+import org.example.simplerpgprofession.profession.dto.PutProfessionRequest;
 import org.example.simplerpgprofession.profession.entity.Profession;
+import org.example.simplerpgprofession.profession.function.RequestToProfessionFunction;
+import org.example.simplerpgprofession.profession.function.UpdateProfessionWithRequestFunction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -37,6 +41,10 @@ public class ProfessionDefaultController implements ProfessionController {
      */
     private final ProfessionsToResponseFunction professionsToResponse;
 
+    private final RequestToProfessionFunction requestToProfession;
+
+    private final UpdateProfessionWithRequestFunction updateProfessionWithRequest;
+
     /**
      * Constructor with dependency injection.
      *
@@ -48,11 +56,13 @@ public class ProfessionDefaultController implements ProfessionController {
     public ProfessionDefaultController(
             ProfessionDefaultService service,
             ProfessionToResponseFunction professionToResponse,
-            ProfessionsToResponseFunction professionsToResponse
+            ProfessionsToResponseFunction professionsToResponse, RequestToProfessionFunction requestToProfession, UpdateProfessionWithRequestFunction updateProfessionWithRequest
     ) {
         this.service = service;
         this.professionToResponse = professionToResponse;
         this.professionsToResponse = professionsToResponse;
+        this.requestToProfession = requestToProfession;
+        this.updateProfessionWithRequest = updateProfessionWithRequest;
     }
 
     /**
@@ -94,6 +104,29 @@ public class ProfessionDefaultController implements ProfessionController {
                             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Profession not found");
                         }
                 );
+    }
+
+    @PostMapping("/")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void addProfession(@RequestBody PostProfessionRequest request) {
+        service.create(requestToProfession.apply(request));
+
+    }
+
+    @PutMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void updateProfession(@PathVariable UUID id, @RequestBody PutProfessionRequest request){
+        service.find(id)
+                .ifPresentOrElse(
+                profession -> {
+                    profession.setBaseArmor(request.getBaseArmor());
+                    service.update(profession);
+                },
+                ()->{
+                    System.out.println("ASD");
+                    throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Profession not found");
+                }
+        );
     }
 }
 

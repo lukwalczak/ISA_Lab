@@ -66,6 +66,11 @@ public class ProfessionDefaultService implements ProfessionService {
         repository.findById(id).ifPresent(repository::delete);
         eventRepository.delete(id);
     }
+
+    @Override
+    public void update(Profession profession) {
+        repository.save(profession);
+    }
 }
 
 
