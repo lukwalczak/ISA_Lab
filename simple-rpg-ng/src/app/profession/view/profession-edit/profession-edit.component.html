@@ -1,0 +1,29 @@
+<article *ngIf="profession">
+  <header><h2>Edit profession</h2></header>
+  <form class="container" #form="ngForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col-4 p-2">
+        <div>
+          <span>{{ profession.name }}</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 p-2">
+        <div>
+          <label for="baseArmor">BaseArmor:</label>
+          <input id="baseArmor" name="baseArmor" [(ngModel)]="profession.baseArmor"/>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2 p-2">
+        <button type="submit">Update</button>
+      </div>
+      <div class="col-2 p-2">
+        <button type="button" (click)="form.resetForm(original)">Reset</button>
+      </div>
+    </div>
+  </form>
+
+</article>

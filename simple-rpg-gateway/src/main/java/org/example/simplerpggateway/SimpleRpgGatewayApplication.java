@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.filter.CorsFilter;
 
 @SpringBootApplication
 public class SimpleRpgGatewayApplication {
@@ -19,7 +22,7 @@ public class SimpleRpgGatewayApplication {
             RouteLocatorBuilder builder,
             @Value("${rpg.character.url}") String characterUrl,
             @Value("${rpg.profession.url}") String professionUrl,
-            @Value("${rpg.gatewy.host}") String host
+            @Value("${rpg.gateway.host}") String host
     ) {
         return builder
                 .routes()
@@ -48,5 +51,18 @@ public class SimpleRpgGatewayApplication {
                 .build();
     }
 
+    @Bean
+    public CorsFilter corsFilter() {
+        CorsConfiguration config = new CorsConfiguration();
+        config.addAllowedOrigin("*");
+        config.addAllowedOriginPattern("*"); // Allow all origins, restrict this in production
+        config.addAllowedMethod("*"); // Allow all HTTP methods
+        config.addAllowedHeader("*"); // Allow all headers
+        config.setAllowCredentials(true); // Allow credentials (e.g., cookies)
 
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        source.registerCorsConfiguration("/**", config); // Apply CORS config to all paths
+
+        return new CorsFilter(source);
+    }
 }

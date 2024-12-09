@@ -1,0 +1,22 @@
+<article *ngIf="character">
+  <header><h2>{{ character.name }}</h2><a [routerLink]="['/characters', character.id, 'edit']">Edit</a></header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="row mb-2">
+          <div class="col-6">
+            Level &amp; Profession
+          </div>
+          <div class="col-6">
+            level
+            <span> {{ character.level }}</span>
+            <span> {{ character.profession.name }}</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</article>

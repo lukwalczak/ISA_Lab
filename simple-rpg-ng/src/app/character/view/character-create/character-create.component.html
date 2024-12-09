@@ -1,0 +1,45 @@
+<article>
+  <header><h2>Create new character</h2></header>
+  <form class="container" #form="ngForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col-4 p-2">
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" name="name" [(ngModel)]="character.name"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4 p-2">
+        <div>
+          <label for="level">Level:</label>
+          <input id="level" name="level" [(ngModel)]="character.level"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4 p-2">
+        <fieldset *ngIf="professions">
+          <legend>Profession:</legend>
+          <div *ngFor="let profession of professions.professions; let i = index">
+            <label>
+              <input type="radio" name="professionId" [checked]="i === 0" [value]="profession.id" [(ngModel)]="character.professionId"/>
+              {{ profession.name }}
+            </label>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-2 p-2">
+        <button type="submit">Create new character</button>
+      </div>
+    </div>
+
+  </form>
+</article>
+

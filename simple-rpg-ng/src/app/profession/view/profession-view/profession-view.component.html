@@ -1,0 +1,6 @@
+<div *ngIf="profession">
+  <a [routerLink]="['/professions',profession.id,'edit']" >Edit</a>
+  <p>Profession id: {{profession.id}}</p>
+  <p>Profession name: {{profession.name}}</p>
+  <p>Profession baseArmor: {{profession.baseArmor}}</p>
+</div>

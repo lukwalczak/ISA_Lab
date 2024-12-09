@@ -1,0 +1,18 @@
+<nav class="nav-content">
+  <div>
+    <ul>
+      <li>
+        <div><a [routerLink]="'characters'">Characters</a><a [routerLink]="['/characters/new']" class="m-lg-4">+</a></div>
+        <ul *ngIf="characters">
+          <li *ngFor="let character of characters.characters"><a [routerLink]="['/characters', character.id]" >{{character.name}}</a></li>
+        </ul>
+      </li>
+      <li>
+        <div><a [routerLink]="'professions'">Professions</a><a [routerLink]="['professions/new']" class="m-lg-4">+</a></div>
+        <ul *ngIf="professions">
+          <li *ngFor="let profession of professions.professions"><a [routerLink]="['/professions', profession.id]">{{profession.name}}</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>

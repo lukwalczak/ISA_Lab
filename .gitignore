@@ -1,0 +1,7 @@
+.idea/
+.idea/*
+simple-rpg-ng/node_modules/
+simple-rpg-ng/.angular
+simple-rpg-character/target
+simple-rpg-profession/target
+simple-rpg-gateway/target

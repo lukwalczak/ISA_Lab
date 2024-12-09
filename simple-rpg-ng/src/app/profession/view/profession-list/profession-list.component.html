@@ -1,0 +1,16 @@
+<article>
+  <table *ngIf="professions">
+    <h2>Professions</h2>
+    <a [routerLink]="['/professions/new']">Add new profession</a>
+    <tbody>
+    <tr *ngFor="let profession of professions.professions">
+      <td>{{ profession.name }}</td>
+      <td><a [routerLink]="['/professions',profession.id,'edit']" >Edit</a></td>
+      <td><a [routerLink]="['/professions',profession.id]">View</a></td>
+      <td>
+        <button (click)="onDelete(profession)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</article>

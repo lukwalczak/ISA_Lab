@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  simple-rpg-character:
+    image: simple-rpg-character:1.0.0
+    restart: always
+    networks:
+      - rpg-network
+
+  simple-rpg-profession:
+    image: simple-rpg-profession:1.0.0
+    restart: always
+    environment:
+      RPG_CHARACTER_URL: "http://simple-rpg-character:8080"
+    networks:
+      - rpg-network
+
+  simple-rpg-gateway:
+    image: simple-rpg-gateway:1.0.0
+    restart: always
+    environment:
+      RPG_CHARACTER_URL: "http://simple-rpg-character:8080"
+      RPG_PROFESSION_URL: "http://simple-rpg-profession:8080"
+      RPG_GATEWAY_HOST: "simple-rpg-gateway:8080"
+    ports:
+      - "8080:80"
+    networks:
+      - rpg-network
+
+  simple-rpg-ng:
+    image: simple-rpg-ng:1.0.0
+    restart: always
+    environment:
+      API_URL: "http://simple-rpg-gateway:8080/api"
+    ports:
+      - "8087:80"
+    networks:
+      - rpg-network
+
+networks:
+  rpg-network:
+    driver: bridge
