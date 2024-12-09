@@ -32,7 +32,11 @@ public class ProfessionEventRestRepository implements ProfessionEventRepository 
 
     @Override
     public void create(Profession profession) {
-        restTemplate.postForObject("/api/professions/{id}", this.professionToResponseFunction.apply(profession), UUID.class, profession.getId());
+        try{
+            restTemplate.postForObject("/api/professions/{id}", this.professionToResponseFunction.apply(profession), UUID.class, profession.getId());
+        }catch (Exception e) {
+
+        }
     }
 
 }
