@@ -1,0 +1,36 @@
+### Get all professions
+
+GET http://localhost:8082/api/professions
+
+### Get single profession
+
+GET http://localhost:8082/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+
+### Get single profession, not existing
+
+GET http://localhost:8082/api/professions/ac4e2683-b2ba-4695-94d9-806a97fce71e
+
+### Delete profession
+
+DELETE http://localhost:8082/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+
+
+### Create new profession
+
+POST http://localhost:8082/api/professions/
+Content-Type: application/json
+
+{
+  "name": "Druid",
+  "baseArmor": 13
+}
+
+### Update profession
+
+PUT http://localhost:8082/api/professions/f5875513-bf7b-4ae1-b8a5-5b70a1b90e76
+Content-Type: application/json
+Authorization: Basic a2V2aW46dXNlcnVzZXI=
+
+{
+  "baseArmor": 17
+}

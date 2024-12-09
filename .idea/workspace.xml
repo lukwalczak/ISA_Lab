@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9218e5e-ef9a-477c-8b87-0ac88136baf1" name="Changes" comment="LAB 4gateway">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212618.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212619.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212656.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212657.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212659.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212709.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T212711.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213130.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213132.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213134.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213139.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213203.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213205.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213207.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213209.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213211.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213213.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213220.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213224.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213225.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T213227.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222017.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222020.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222027.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222028.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222032.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222041.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222052.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222055.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222100.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222102.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-12-06T222104.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/dto/GetCharactersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/dto/GetCharactersResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/function/CharacterToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/function/CharacterToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/function/CharactersToResponseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/function/CharactersToResponseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/initialize/InitializeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/initialize/InitializeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/service/impl/CharacterDefaultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/character/service/impl/CharacterDefaultService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/entity/Profession.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/entity/Profession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/event/repository/api/ProfessionEventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/event/repository/api/ProfessionEventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/event/repository/impl/ProfessionEventRestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-character/src/main/java/org/example/simplerpgcharacter/profession/event/repository/impl/ProfessionEventRestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-rpg-profession/src/main/java/org/example/simplerpgprofession/profession/initialize/InitializeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpg-profession/src/main/java/org/example/simplerpgprofession/profession/initialize/InitializeData.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lukwalczak&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lukwalczak/ISA_Lab.git&quot;,
+    &quot;accountId&quot;: &quot;041f0246-f404-45fa-9827-ca666690af1f&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2pofgcL8H9SVro1VsNFrF5xhIJk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.requests | #1.executor": "Run",
+    "HTTP Request.requests | Create new character.executor": "Run",
+    "HTTP Request.requests | Delete character..executor": "Run",
+    "HTTP Request.requests | Delete profession.executor": "Run",
+    "HTTP Request.requests | Delete user.executor": "Run",
+    "HTTP Request.requests | Get all characters.executor": "Run",
+    "HTTP Request.requests | Get all professions.executor": "Run",
+    "HTTP Request.requests | Get profession characters (1).executor": "Run",
+    "HTTP Request.requests | Get profession characters, not existing.executor": "Run",
+    "HTTP Request.requests | Get profession characters.executor": "Run",
+    "HTTP Request.requests | Get single character (1).executor": "Run",
+    "HTTP Request.requests | Get single character, not existing (1).executor": "Run",
+    "HTTP Request.requests | Get single character, not existing.executor": "Run",
+    "HTTP Request.requests | Get single character.executor": "Run",
+    "HTTP Request.requests | Get single profession, not existing.executor": "Run",
+    "HTTP Request.requests | Get single profession.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ISA_Lab.executor": "Run",
+    "Spring Boot.SimpleRpgCharacterApplication.executor": "Debug",
+    "Spring Boot.SimpleRpgGatewayApplication.executor": "Debug",
+    "Spring Boot.SimpleRpgProfessionApplication.executor": "Debug",
+    "Spring Boot.SimpleRpgUserApplication.executor": "Run",
+    "git-widget-placeholder": "jprdl",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SimpleRpgCharacterApplication">
+    <configuration name="requests | Get profession characters" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Get profession characters" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | Get profession characters, not existing" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Get profession characters, not existing" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | Get single character" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Get single character" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | Get single character, not existing" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-gateway/requests.http" executionIdentifier="Get single character, not existing" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/simple-rpg-character/requests.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleRpgCharacterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg-character" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.simplerpgcharacter.SimpleRpgCharacterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleRpgGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.simplerpggateway.SimpleRpgGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleRpgProfessionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple-rpg-profession" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.simplerpgprofession.SimpleRpgProfessionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.requests | Get profession characters" />
+        <item itemvalue="HTTP Request.requests | Get profession characters, not existing" />
+        <item itemvalue="HTTP Request.requests | Get single character" />
+        <item itemvalue="HTTP Request.requests | #1" />
+        <item itemvalue="HTTP Request.requests | Get single character, not existing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9218e5e-ef9a-477c-8b87-0ac88136baf1" name="Changes" comment="" />
+      <created>1733437462177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733437462177</updated>
+      <workItem from="1733437463389" duration="890000" />
+      <workItem from="1733442393199" duration="5391000" />
+      <workItem from="1733495753762" duration="16727000" />
+    </task>
+    <task id="LOCAL-00001" summary="LAB 4 works">
+      <option name="closed" value="true" />
+      <created>1733517276663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733517276663</updated>
+    </task>
+    <task id="LOCAL-00002" summary="LAB 4gateway">
+      <option name="closed" value="true" />
+      <created>1733521529816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733521529816</updated>
+    </task>
+    <task id="LOCAL-00003" summary="LAB 4gateway">
+      <option name="closed" value="true" />
+      <created>1733521615456</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733521615456</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LAB 4 works" />
+    <MESSAGE value="LAB 4gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB 4gateway" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
