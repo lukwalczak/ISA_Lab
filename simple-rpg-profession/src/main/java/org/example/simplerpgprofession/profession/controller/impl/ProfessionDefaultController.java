@@ -100,7 +100,6 @@ public class ProfessionDefaultController implements ProfessionController {
                 .ifPresentOrElse(
                         profession -> service.delete(id),
                         () -> {
-//                            log.warning("Profession not found");
                             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Profession not found");
                         }
                 );
@@ -128,5 +127,7 @@ public class ProfessionDefaultController implements ProfessionController {
                 }
         );
     }
+
+
 }
 

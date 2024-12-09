@@ -1,5 +1,4 @@
-package org.example.simplerpgprofession.profession.dto;
-
+package org.example.simplerpgcharacter.profession.dto;
 
 import lombok.*;
 
@@ -17,3 +16,4 @@ public class PostProfessionRequest {
     private String name;
     private int baseArmor;
 }
+

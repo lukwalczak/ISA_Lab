@@ -59,6 +59,7 @@ public class ProfessionDefaultService implements ProfessionService {
     @Override
     public void create(Profession profession) {
         repository.save(profession);
+        eventRepository.create(profession);
     }
 
     @Override

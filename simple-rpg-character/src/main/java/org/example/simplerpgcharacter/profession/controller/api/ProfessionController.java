@@ -1,9 +1,8 @@
 package org.example.simplerpgcharacter.profession.controller.api;
 
+import org.example.simplerpgcharacter.profession.dto.PostProfessionRequest;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
@@ -20,6 +19,17 @@ public interface ProfessionController {
             @PathVariable("id")
             UUID id
     );
+
+    @PostMapping("/api/professions/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    void createProfession(
+            @PathVariable("id")
+            UUID id,
+            @RequestBody
+            PostProfessionRequest postProfessionRequest
+    );
+
+
 
 }
 
